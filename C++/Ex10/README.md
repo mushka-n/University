@@ -13,7 +13,7 @@ An arithmetic expression is an expression in which the operands are objects on w
 In this form of notation (called * * infix**, where the operation signs are between the operands), the order of actions is determined by the placement of parentheses and the priority of operations. ** The postfix** (or reverse Polish) form of the entry does not contain brackets, and the operation signs follow the corresponding operands. Then for the given example, the postfix form will have the form:
 
 ```
-1 2 + 3 4 6.7 * + / 5.3 4.4 * -
+1 2 + 3 4 6.7 * + / 5.3 4.4 * - 
 ```
 
 ### Translation to the postfix form
