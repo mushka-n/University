@@ -41,7 +41,8 @@ Otherwise, all signs of operations with a priority greater or equal to the prior
 
 ### Explanation
 ```
-Function **infix2prefix** converts a record of an arithmetic expression in infix form to a record of the same expression, but in postfix form
+Function **infix2prefix** converts a record of an arithmetic expression in infix form 
+to a record of the same expression, but in postfix form
 ```
 
 *Note*
