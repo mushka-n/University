@@ -46,6 +46,7 @@ to a record of the same expression, but in postfix form
 ```
 
 > *Note*
+
 > It is assumed that only digits, operation signs, parentheses and a decimal point are used in writing an arithmetic expression. The numbers are written only positive, they can be both integer and real. The brackets are placed correctly. The depth of the parenthesis embedding is no more than 100. The number of operations in the expression is no more than 200.
 
 
