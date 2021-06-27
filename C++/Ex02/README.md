@@ -6,11 +6,6 @@
 A program that calculates the square root of a number using Newton's method
 ```
 
-## Tests
-```
-Tests that cover the main functionality of the program. Tests should include checking the accuracy of the result (up to the required sign).
-```
-
 ## Composition of the program
 
  > - **task1.h** - header file containing the header
