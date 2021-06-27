@@ -31,7 +31,7 @@ It is assumed that the input string contains a syntactically correct expression.
 
 The input string is viewed character-by-character from left to right until the end of the string is reached. We will consider as operands any sequence of characters of the input string that does not coincide with the characters of the operations defined in the table. Operands are rewritten to the output string as they appear. When an operation appears in the input line, the priority of this operation is calculated. The sign of this operation is placed on the stack if:
 
-- The priority of the operation is 0 (this is ' ( ' ),
+- The priority of the operation is 0 (this is '(' ),
 - The priority of the operation is strictly greater than the priority of the operation lying at the top of the stack,
 - The stack is empty.
 
@@ -40,13 +40,13 @@ Otherwise, all signs of operations with a priority greater or equal to the prior
 
 
 ### Explanation
-
-> Function **infix2prefix** converts a record of an arithmetic expression in infix form to a record of the same expression, but in postfix form
-
+```
+Function **infix2prefix** converts a record of an arithmetic expression in infix form to a record of the same expression, but in postfix form
+```
 
 *Note*
 
-It is assumed that only digits, operation signs, parentheses and a decimal point are used in writing an arithmetic expression. The numbers are written only positive, they can be both integer and real. The brackets are placed correctly. The depth of the parenthesis embedding is no more than 100. The number of operations in the expression is no more than 200.
+> It is assumed that only digits, operation signs, parentheses and a decimal point are used in writing an arithmetic expression. The numbers are written only positive, they can be both integer and real. The brackets are placed correctly. The depth of the parenthesis embedding is no more than 100. The number of operations in the expression is no more than 200.
 
 
 ## Project structure
