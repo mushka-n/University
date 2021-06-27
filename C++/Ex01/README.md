@@ -1,5 +1,5 @@
 
-# **Ex01** $$N^th$$ prime number
+# **Ex01** N-th prime number
 
 ## Explanation
 ```
