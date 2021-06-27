@@ -37,7 +37,7 @@ The input string is viewed character-by-character from left to right until the e
 
 Otherwise, all signs of operations with a priority greater or equal to the priority of the current operation are extracted from the stack. They are rewritten to the output string, after which the sign of the current operation is placed on the stack. There is a special feature in the processing of the closing bracket. The appearance of a closing parenthesis in the input string leads to the ejection and writing to the output string of all operation characters before the appearance of the opening parenthesis. The opening parenthesis is pushed out of the stack, but it is not written to the output string. Thus, neither the opening nor closing brackets fall into the output string. After viewing the entire input string, all the stack elements are sequentially extracted, while simultaneously writing the signs of operations extracted from the stack to the output string.
 
-
+## Overview
 
 ### Explanation
 ```
