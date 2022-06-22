@@ -1,0 +1,43 @@
+@startuml
+class Student {
+ -id
+ -fio
+ -group
+ -marks
+ -addToGroup()
+ -addmark()
+ +getAveragemark()
+ +isHeadOfGroup()
+}
+
+class Group {
+ -title
+ -spec
+ -students
+ -head
+ -addStudent()
+ -chooseHead()
+ +getAveragemark()
+ +getStudent()
+ +containsStudent()
+ -removeStudent()
+ +isEmpty()
+}
+
+class Deanary {
+  -groups
+  +createGroups()
+  +hireStudents()
+  +addMarksToAll()
+  +getStatistics()
+  +moveStudents()
+  +saveStaff()
+  +initHeads()
+  +fireStudents()
+}
+
+
+left to right direction
+Group o-- Student
+Deanary o-- Group
+@enduml
