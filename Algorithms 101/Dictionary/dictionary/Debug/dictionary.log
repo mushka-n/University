@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Мушка\source\repos\dictionary\dictionary\Source.cpp(40,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Мушка\source\repos\dictionary\dictionary\Source.cpp(43,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Мушка\source\repos\dictionary\dictionary\Source.cpp(48,21): warning C4018: <: несоответствие типов со знаком и без знака
+  dictionary.vcxproj -> C:\Users\Мушка\source\repos\dictionary\Debug\dictionary.exe
