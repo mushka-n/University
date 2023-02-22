@@ -16,6 +16,8 @@
 
 # Program execution visualization
 
+100 bodies, 100 cycles
+
 ![](visualization/visualization.gif)
 
 # Test results
