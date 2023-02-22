@@ -4,7 +4,7 @@
 #include <pthread.h>
 
 #define DT 0.5
-#define N_THREADS 1
+#define N_THREADS 6
 
 typedef struct {
     double x, y;
