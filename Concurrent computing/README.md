@@ -1,6 +1,6 @@
 # N-body problem
 
-# Usage
+## Usage
 
 ### Build & run
 
@@ -14,21 +14,21 @@ gcc main.c -o main -lm && ./main ./input
 py ./visualize.py ./output.csv
 ```
 
-# Program execution visualization
+## Program execution visualization
 
 100 bodies, 100 cycles
 
 ![](visualization/visualization.gif)
 
-# Test results
+## Test results
 
-## System specs
+### System specs
 
 - Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz 2.90 GHz (6 cores, 6 threads)
 - gcc compiler 11.3.0
 - 100 iterations
 
-## Comparison table
+### Comparison table
 
 | Threads\ Bodies | 1000   | 2000    | 4000     | 8000    | 16000    | 32000    |
 | --------------- | ------ | ------- | -------- | ------- | -------- | -------- |
@@ -37,6 +37,6 @@ py ./visualize.py ./output.csv
 | 4               | 4.030s | 10.899s | 32.819s  | 90.13s  | 323.60s  | 1626.5s  |
 | 6               | 3.393s | 9.848s  | 27.620s  | 72.02s  | 262.57s  | 1623.2s  |
 
-## Comparison chart
+### Comparison chart
 
 ![visualization/chart.png](visualization/chart.png)
