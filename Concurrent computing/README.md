@@ -2,8 +2,6 @@
 
 # Usage
 
----
-
 ### Build & run
 
 ```ps
@@ -16,8 +14,6 @@ gcc main.c -o main -lm && ./main ./input
 py ./visualize.py ./output.csv
 ```
 
----
-
 # Program execution visualization
 
 100 bodies, 100 cycles
@@ -25,8 +21,6 @@ py ./visualize.py ./output.csv
 ![](visualization/visualization.gif)
 
 # Test results
-
----
 
 ## System specs
 
