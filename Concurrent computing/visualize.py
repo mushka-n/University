@@ -17,4 +17,4 @@ for row in file.readlines()[1:]:
     plt.scatter(xs, ys, color='blue', s=3)
     camera.snap()
 
-camera.animate().save('result.gif')
+camera.animate().save('./visualization/visualization.gif')
