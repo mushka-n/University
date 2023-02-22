@@ -6,11 +6,15 @@
 
 ### Build & run
 
-`gcc main.c -o main -lm && ./main ./input`
+```ps
+gcc main.c -o main -lm && ./main ./input
+```
 
 ### Visualize
 
-`py ./visualize.py ./output.csv`
+```ps
+py ./visualize.py ./output.csv
+```
 
 ---
 
