@@ -42,3 +42,10 @@
 | 6             | <0.001s | 0.004s  | 0.037s  | 0.344s  | 2.836s    |
 
 ![visualization/col-wise-data.png](visualization/col-wise-data.png)
+
+From the tables, we can draw the following conclusions:
+
+- Both algorithms perform better with a higher number of threads.
+- The row-wise matrix multiplication algorithm is slower than the column-wise algorithm for all matrix sizes and thread counts.
+- The column-wise matrix multiplication algorithm shows more consistent performance across all matrix sizes and thread counts.
+- At small matrix sizes (100x100), the difference in execution time between different thread counts is not significant. However, as the matrix size increases (800x800 and 1600x1600), the difference becomes more noticeable.
