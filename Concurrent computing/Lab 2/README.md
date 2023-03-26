@@ -2,13 +2,13 @@
 
 ## Usage
 
-### Row-wise
+Row-wise
 
 ```console
  mpicxx main-row-wise.cpp -o main-row-wise && mpiexec -n <num of threads> main-row-wise
 ```
 
-### Column-wise
+Column-wise
 
 ```console
  mpicxx main-col-wise.cpp -o main-col-wise && mpiexec -n <num of threads> main-col-wise
