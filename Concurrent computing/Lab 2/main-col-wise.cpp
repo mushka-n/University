@@ -1,5 +1,6 @@
 #include <iostream>
 #include <mpi.h>
+#include <math.h>
 
 #define N 400
 
@@ -40,8 +41,8 @@ int main(int argc, char **argv) {
     MPI::COMM_WORLD.Reduce(c_rank, c, N * N, MPI::DOUBLE, MPI::SUM, 0);
 
     double end = MPI_Wtime();
-    if (rank == 0) { std::cout << "Time: " << end - start << "seconds" << std::endl;}
-
+    if (rank == 0) { std::cout << "Time: " << roundf((end - start) * 1000) / 1000 << "s" << std::endl; }
+  
     MPI_Finalize();
     return 0;
 }

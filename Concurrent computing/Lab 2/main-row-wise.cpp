@@ -1,7 +1,8 @@
 #include <iostream>
 #include <mpi.h>
+#include <math.h>
 
-#define N 100
+#define N 400
 
 using namespace std;
 
@@ -40,7 +41,7 @@ int main(int argc, char **argv) {
     MPI::COMM_WORLD.Gather(c_rank, N_rank * N, MPI_DOUBLE, c, N_rank * N, MPI_DOUBLE, 0);
 
     double end = MPI::Wtime() - start;
-    if (rank == 0) { std::cout << "Time: " << end - start << " seconds" << std::endl; }
+    if (rank == 0) { std::cout << "Time: " << roundf((end - start) * 1000) / 1000 << "s" << std::endl; }
   
     MPI_Finalize();
     return 0;
