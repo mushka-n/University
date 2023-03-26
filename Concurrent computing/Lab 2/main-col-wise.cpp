@@ -2,7 +2,7 @@
 #include <mpi.h>
 #include <math.h>
 
-#define N 400
+#define N 1600
 
 using namespace std;
 
@@ -14,7 +14,11 @@ int main(int argc, char **argv) {
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
     size_t N_rank = N / size;
-    size_t a[N * N], b[N * N], b_rank[N_rank * N], c[N * N], c_rank[N * N];
+    size_t *a = new size_t[N * N],
+           *b = new size_t[N * N],
+           *b_rank = new size_t[N_rank * N],
+           *c = new size_t[N * N],
+           *c_rank = new size_t[N * N];
 
     if (rank == 0) {
         for (int i = 0; i < N; i++) {
