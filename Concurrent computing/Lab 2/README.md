@@ -43,6 +43,8 @@
 
 ![visualization/col-wise-data.png](visualization/col-wise-data.png)
 
+## Conclusion
+
 From the tables, we can draw the following conclusions:
 
 - Both algorithms perform better with a higher number of threads.
