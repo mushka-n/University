@@ -1,3 +1,3 @@
 # University
 
-All projects developed by me during 4 years of study at the Higher School of Economics University as a Software Engineer
+All of the projects developed by me throughout 4 years at the Higher School of Economics University as a Software Engineer
